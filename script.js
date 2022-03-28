@@ -1,6 +1,7 @@
 function createNewElement() {
   var newElement = document.createElement("li");
   newElement.innerHTML = document.getElementById("in").value;
+  newElement.className = "left";
   document.getElementById("in").value = "";
   document.getElementById("list").appendChild(newElement);
 }
